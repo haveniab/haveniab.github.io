@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .a {
+                text-align: center;
+            }
+
+            .b, .c {
+                text-align: justify;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas Bootstrap</title>
+        <!-- Menyisipkan Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Menyisipkan Javascript-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    </head>
+    <body>
+        <nav class="navbar bg-secondary navbar-dark">
+            <a class="navbar-brand" href="#" >Trip Bali</a>
+                <img class="image-fluid" src="bali.jpg" width="100px" >
+                <img class="image-fluid" src="bali1.jpg" width="100px">
+                <img class="image-fluid" src="bali2.jpg" width="100px">
+                <img class="image-fluid" src="pantai1.jpg" width="100px">
+                <img class="image-fluid" src="pantai2.jpg" width="100px">
+                <img class="image-fluid" src="sunset1.jpg" width="100px">
+                <img class="image-fluid" src="sunset2.jpg" width="100px">
+                <img class="image-fluid" src="sunset3.jpg" width="100px">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Join Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-success">Login</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="jumbotron">
+                <div class="a">
+                <h1>TRIP BALI TRAVELLING</h1>
+            </div>
+            <div class="b">
+                <p>Bali adalah sebuah pulau di Indonesia yang dikenal 
+                    karena memiliki pegunungan berapi yang hijau, 
+                    terasering sawah yang unik, pantai, dan terumbu karang yang cantik. 
+                    Terdapat banyak tempat wisata religi seperti Pura 
+                    Uluwatu yang berdiri di atas tebing. 
+                    Di Selatan, kota pesisir pantai Kuta menawarkan 
+                    wisata hiburan malam yang tak pernah sepi, sementara Seminyak, 
+                    Sanur, dan Nusa Dua dikenal dengan suguhan resort yang populer. 
+                    Pulau Bali juga dikenal sebagai tempat untuk relaksasi 
+                    dengan yoga dan meditasi. <br> <br>
+                    Liburan dengan waktu terbatas di Bali? 
+                    Jangan buang waktu untuk menunggu rombongan 
+                    besar dan mengunjungi objek wisata yang tidak anda minati.
+                    Pilih salah satu custom private tour kami dan jelajahi pulau 
+                    cantik di Indonesia ini dengan cara yang anda mau! Di antara 17.000 
+                    pulau di Indonesia, Bali paling terkenal dalam hal pariwisata. 
+                    Pulau ini memamerkan cuaca eksotis, nuansa santai, dan gaya hidup 
+                    realistis, juga makanan yang terkenal pedas dan warisan budaya yang kaya. 
+                    Anda akan bertemu banyak sinar matahari dan langit biru yang cantik. 
+                    Pada tour ini, anda dapat memilih di antara itinerary berbeda 
+                    untuk menemukan tempat-tempat khas di Bali, dan pilih 
+                    semuanya yang ingin anda kunjungi di pulau ini—semuanya hanya dalam sehari. 
+                    Rasakan kenyamanan kendaraan pribadi ber-AC untuk anda sendiri, 
+                    bersama pengemudi yang mampu berbahasa Inggris. 
+                    Biaya bahan bakar sudah termasuk dalam paket, 
+                    jadi anda tidak perlu khawatir tour anda akan terganggu! <br> <br>
+                    AYO BERGABUNG BERSAMA TRIP BALI!! NYAMAN DAN BERKUALITAS.
+                </p>
+            </div>
+            </div>
+            <p>Contact us : +62 813 776 0001</p>
+            <p>Address : Jalan Tukad Pakerisan No.1, Panjer, Denpasar Selatan, Kota Denpasar, Bali</p>
+        </div>
+        <br> <br> <br> <br>
+        
+        <div class="container">
+            <h2>Join with us!</h2>
+            <p> Login </p>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="Address">Address:</label>
+                    <input type="text" class="form-control" id="Address" placeholder="Enter your address">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
